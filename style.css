@@ -23,7 +23,7 @@ body {
   background-image: url("image/Back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-x: hidden !important;
+  overflow: hidden !important;
   align-content: center;
 }
 
@@ -70,12 +70,13 @@ body {
     font-size: 90% !important;
   }
   .container {
-    max-width: max-content;
+    max-width: 320px;
     padding: 5%;
   }
 
   .table {
     max-width: 100% !important;
+    max-height: 220px !important;
     padding: 5% !important;
   }
   .tablePOD {
@@ -104,8 +105,8 @@ body {
   }
 
   .select-box {
-    width: 100%;
-    padding: 0 10%;
+    width: 18rem !important;
+    padding: 0 10% !important;
   }
 }
 
