@@ -72,6 +72,7 @@ body {
   .container {
     max-width: 320px;
     padding: 5%;
+    padding-top: 87px;
   }
 
   .table {
