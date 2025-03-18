@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Церковь Спасение</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-code.css" />
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -44,7 +46,7 @@
             </div>
           </a>
           <a
-            href="https://www.instagram.com/spaseniemd/"
+            href="https://www.instagram.com/church_of_salvation_pmr/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -60,7 +62,7 @@
             </div>
           </a>
           <a
-            href="https://www.instagram.com/church_of_salvation_pmr/"
+            href="https://www.instagram.com/spaseniemd/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -105,18 +107,40 @@
         </div>
       </div>
       <div class="tablePOD">
-        <div class="form"></div>
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSebLVeeGxycoSFf5msbpA1Pz-TVULP5eZYS1eEWX3mISirODA/viewform?embedded=true"
-          width="100%"
-          height="100%"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          style="border-radius: 40px"
-          >Загрузка…</iframe
-        >
+        <p class="tablePOD-head">Хочешь к нам?</p>
+        <div class="form">
+          <form
+            action="https://docs.google.com/forms/d/e/1FAIpQLSebLVeeGxycoSFf5msbpA1Pz-TVULP5eZYS1eEWX3mISirODA/formResponse"
+          >
+            <p class="form-text">Номер Телефона</p>
+            <div class="select-box">
+              <div class="selected-option">
+                <div id="codePhone">
+                  <span class="iconify" data-icon="flag:gb-4x3"></span>
+                  <strong>+000</strong>
+                </div>
+                <input
+                  type="tel"
+                  id="phone-number"
+                  name="entry.1461931232"
+                  placeholder="Phone Number"
+                  maxlength="15"
+                />
+              </div>
+              <div class="options">
+                <input
+                  type="text"
+                  class="search-box"
+                  placeholder="Search Country Name"
+                />
+                <ol></ol>
+              </div>
+            </div>
+            <button class="form-button">Отправить</button>
+          </form>
+        </div>
       </div>
     </div>
+    <script src="scripts.js"></script>
   </body>
 </html>
