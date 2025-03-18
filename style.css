@@ -109,6 +109,9 @@ body {
     width: 18rem !important;
     padding: 0 10% !important;
   }
+  .options.active {
+    width: 80% !important;
+  }
 }
 
 /* @media (max-height: 930px) {
