@@ -132,6 +132,10 @@ body {
   .select-box input {
     padding: 0.3rem 0.6rem !important;
   }
+
+  .shrink {
+    zoom: 0.7;
+  }
 }
 
 /* @media (max-height: 930px) {

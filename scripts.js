@@ -376,3 +376,13 @@ document
     // Обрезаем лишний пробел в конце
     event.target.value = formattedValue.trim();
   });
+
+const input = document.querySelector("input");
+
+input.addEventListener("focus", () => {
+  document.body.classList.add("shrink");
+});
+
+input.addEventListener("blur", () => {
+  document.body.classList.remove("shrink");
+});
